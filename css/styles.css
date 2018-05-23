@@ -1,0 +1,28 @@
+.navbar{
+  border-radius: 0;
+  /* background-color: pink; */
+  margin: 0;
+}
+
+.jumbotron{
+  background-image: url(http://www.placecage.com/g/200/300) ;
+  color: #FFD351;
+}
+
+.Maintext{
+  display: flex;
+}
+.text-left{
+  width: 69%;
+}
+
+.text-right{
+  float: right;
+  width: 29%;
+}
+@media screen and (min-width 900px) {
+  iframe{
+    width: 480px;
+    height: 270px;
+  }
+}
